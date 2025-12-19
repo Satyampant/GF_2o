@@ -1,5 +1,6 @@
 ## Architecture
 
+```mermaid
 graph TD
     START((START)) --> MEM_EXT[memory_extraction_node]
     MEM_EXT --> ROUTER[router_node]
@@ -19,3 +20,4 @@ graph TD
     AUD -- should_summarize --> END
     
     SUMM --> END
+```
